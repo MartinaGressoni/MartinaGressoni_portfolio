@@ -42,25 +42,39 @@ export default function Home() {
       
       
       <header className={styles.header}>
-  <div className={styles.strip}>
-    <div className={styles.stripContent}>
-      <div className={styles.stripLeft}>
-        Martina Gressoni
-      </div>
-      <div className={styles.stripRight}>
-        <ul>
-          <li><a href="#about"><strong>About</strong></a></li>
-          <li><a href="#projects"><strong>Projects</strong></a></li>
-          <li><a href="#languagesandskills"><strong>Languages and Skills</strong></a></li>
-          <li><a href="#contact"><strong>Contact</strong></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div className={styles.profileContainer}>
-    <!-- Rimane invariato -->
-  </div>
-</header>
+        <div className={styles.profileContainer}>
+          <Image
+            src="Foto .png"
+            alt="Martina Gressoni"
+            width={180}
+            height={180}
+            className={styles.profileImage}
+          />
+          <br />
+          <h1>Hello, I am Martina Gressoni. Welcome to my personal portfolio!</h1>
+        </div>
+
+            
+        <a href="https://www.linkedin.com/in/niccolo-belvedere/" target="_blank" rel="noopener noreferrer">
+            <img 
+            src="linkedin.png" 
+            alt="LinkedIn" 
+            width= "35"
+            className={styles.linkedinicon}
+            />
+        </a>
+
+        <br />      
+        <nav className={styles.navbar}>
+          <ul>
+            <li><a href="#about"><strong>About Me</strong></a></li>
+            <li><a href="#projects"><strong>Projects</strong></a></li>
+            <li><a href="#certificates"><strong>Certificates</strong></a></li>
+            <li><a href="#languagesandskills"><strong>Languages and Skills</strong></a></li>
+            <li><a href="#contact"><strong>Contacts</strong></a></li>
+          </ul>
+        </nav>
+      </header>
 
             
       <main className={styles.main}>
