@@ -1,23 +1,44 @@
 /* Header Styles */
-.header {
-    background-color: #ccdef4;
-    padding: 14px;
-    text-align: center;
-    margin: 0; /* Rimuove margini esterni */
-    position: relative; /* Questo permette di posizionare l'icona di LinkedIn in modo assoluto rispetto al suo genitore */
+.strip {
+  background-color: #f2f2f2;
+  padding: 10px 0;
+}
+
+.strip ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.strip ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.strip ul li:last-child {
+  margin-right: 0;
+}
+
+.strip ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
 }
 
 .profileContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0;
+  display: flex;
+}
+
+.profileImageContainer {
+  margin-right: 20px;
 }
 
 .profileImage {
-  border-radius: 50%; /* Opzionale: rende l'immagine rotonda */
-  margin: 0 auto; /* Centra l'immagine orizzontalmente */
+  border-radius: 50%;
+}
+
+.profileText {
+  max-width: 600px; /* or whatever width you want */
 }
 
 .linkedinicon {
