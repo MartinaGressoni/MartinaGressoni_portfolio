@@ -44,7 +44,7 @@ export default function Home() {
       <header className={styles.header}>
         <div className={styles.profileContainer}>
           <Image
-            src="Foto .png"
+            src="Foto .jpg"
             alt="Martina Gressoni"
             width={180}
             height={180}
@@ -382,15 +382,15 @@ export default function Home() {
           <h2>Contacts</h2>
           <p>
               My LinkedIn profile: <a href="https://www.linkedin.com/in/niccolo-belvedere/" target="_blank" rel="noopener noreferrer">Visit my LinkedIn</a><br />
-              Personal email: niccolobelvedere01@gmail.com<br />
-              Institutional email: niccolo.belvedere@studbocconi.it<br />
-              Mobile: (+39) 3347227607
+              Personal email: martinagressoni@gmail.com<br />
+              Institutional email: ma17.gressoni@stud.liuc.it<br />
+              Mobile: (+39) 3516651867
           </p>
         </section>
       </main>
 
       <footer className={styles.footer}>
-        <p>&copy; {new Date().getFullYear()} Niccolò Belvedere. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Martina Gressoni. All rights reserved.</p>
       </footer>
     </div>
   );
