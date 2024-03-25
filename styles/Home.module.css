@@ -1,50 +1,23 @@
 /* Header Styles */
-.strip {
-  background-color: #f2f2f2;
-  padding: 10px 0;
-  height: 5cm; /* Allungo l'header di 5cm */
-}
-
-.stripContent {
-  display: flex;
-  justify-content: space-between; /* Per spaziare i contenuti a sinistra e a destra */
-  align-items: center; /* Per allineare i contenuti verticalmente */
-  margin: 0 auto;
-  max-width: 1200px; /* Adatto la larghezza massima */
-}
-
-.stripLeft {
-  margin-left: 20px; /* Sposto Martina Gressoni a sinistra */
-}
-
-.stripRight {
-  margin-right: 20px; /* Sposto la striscia con i link a destra */
-}
-
-.strip ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.strip ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-.strip ul li:last-child {
-  margin-right: 0;
-}
-
-.strip ul li a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
+.header {
+    background-color: #ccdef4;
+    padding: 14px;
+    text-align: center;
+    margin: 0; /* Rimuove margini esterni */
+    position: relative; /* Questo permette di posizionare l'icona di LinkedIn in modo assoluto rispetto al suo genitore */
 }
 
 .profileContainer {
-  display: flex;
-  justify-content: space-between; /* Divido l'header a metà */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.profileImage {
+  border-radius: 50%; /* Opzionale: rende l'immagine rotonda */
+  margin: 0 auto; /* Centra l'immagine orizzontalmente */
 }
 
 .linkedinicon {
