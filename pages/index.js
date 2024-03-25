@@ -29,10 +29,10 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Niccolò Belvedere - Portfolio Personale</title>
+        <title>Martina Gressoni - Portfolio Personale</title>
         <meta name="robots" content="index, follow" />
-        <meta name="description" content="Welcome to my personal portfolio. Discover projects, achievements, and professional journey about me. Explore now to learn more about Niccolò Belvedere's expertise and experiences." />
-        <meta property="og:title" content="Niccolò Belvedere - Portfolio Professionale" />
+        <meta name="description" content="Welcome to my personal portfolio! Here you can explore a collection of my projects, achievements, and professional journey. Dive in now to delve deeper into Martina Gressoni's expertise and experiences." />
+        <meta property="og:title" content="Martina Gressoni - Portfolio Professionale" />
         <meta property="og:description" content="Insights on my academic and professional background." />
         <meta property="og:image" content="https://www.niccolobelvedere.com/_next/image?url=Picture.png&w=256&q=75" />
         <meta property="og:url" content="https://www.niccolobelvedere.com" />
@@ -45,13 +45,13 @@ export default function Home() {
         <div className={styles.profileContainer}>
           <Image
             src="Picture.png"
-            alt="Niccolò Belvedere"
+            alt="Martina Gressoni"
             width={180}
             height={180}
             className={styles.profileImage}
           />
           <br />
-          <h1>Hello, I am Niccolò Belvedere. Welcome to my personal portfolio.</h1>
+          <h1>Hello, I am Martina Gressoni. Welcome to my personal portfolio.</h1>
         </div>
 
             
