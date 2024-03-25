@@ -1,0 +1,211 @@
+/* Header Styles */
+.header {
+    background-color: #ccdef4;
+    padding: 14px;
+    text-align: center;
+    margin: 0; /* Rimuove margini esterni */
+    position: relative; /* Questo permette di posizionare l'icona di LinkedIn in modo assoluto rispetto al suo genitore */
+}
+
+.profileContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.profileImage {
+  border-radius: 50%; /* Opzionale: rende l'immagine rotonda */
+  margin: 0 auto; /* Centra l'immagine orizzontalmente */
+}
+
+.linkedinicon {
+    position: absolute;
+    top: 15px; /* Aggiusta questo valore fino a che l'icona non è allineata come desideri */
+    right: 15px; /* Aggiusta questo valore fino a che l'icona non è allineata come desideri */
+}
+
+/* Navbar Styles */
+.navbar ul {
+    list-style-type: none;
+    background-color: #1d4e89;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    color: #f7f7f7; /* Inserisci qui il colore che vuoi per il testo */
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: #050400;
+}
+    
+/* Main Section Styles */
+.main {
+    padding: 15px;
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+
+.downloadbutton {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.downloadbutton:hover {
+  background-color: #0056b3;
+}
+
+.buttonContainer {
+    display: flex;           /* Attiva Flexbox */
+    justify-content: center; /* Centra i bottoni orizzontalmente */
+    align-items: center;     /* Centra i bottoni verticalmente (opzionale) */
+    flex-wrap: nowrap;       /* Impedisce ai bottoni di andare a capo */
+}
+
+.buttonContainer a {
+    margin: 0 10px; /* Aggiunge spazio intorno ai bottoni */
+}
+
+
+.projectButton {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  background-color: #1d4e89;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.projectButton:hover {
+  background-color: #0056b3;
+}
+
+.projectTitle {
+    cursor: pointer; /* Opzionale: cambia il cursore a mano per indicare che è cliccabile */
+}
+
+.projectTitle:hover {
+    text-decoration: underline;
+    color: var(--secondary-color); /* Assicurati che questa variabile CSS sia definita */
+}
+
+.aboutSection, .projectSection, .languagesandskillsSection {
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+.certificatesSection {
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex; /* o grid */
+    flex-direction: row; /* se stai usando flexbox */
+    justify-content: space-between; /* se stai usando flexbox */
+    align-items: stretch; /* allinea verticalmente se stai usando flexbox */
+    width: 100%; /* assicurati che occupino l'intera larghezza */
+    margin-left: auto; /* Centra il contenitore orizzontalmente */
+    margin-right: auto; /* Centra il contenitore orizzontalmente */
+    margin-top: 20px; /* Distanza dal bordo superiore */
+}
+
+.box {
+    flex: 1; /* Assegna a entrambi i riquadri la stessa flessibilità per occupare metà dello spazio */
+    margin: 10px; /* Aggiunge un po' di margine tra i riquadri e il resto del contenuto */
+    padding: 20px; /* Aggiunge un po' di spazio interno ai riquadri */
+    background-color: #d0e1f5; /* o qualsiasi colore di sfondo desiderato */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.6); /* aggiunge l'effetto rialzato con ombreggiatura */
+    border-radius: 4px; /* bordi arrotondati se desiderato */
+}
+
+
+.contactSection {
+    margin-bottom: 40px;
+}
+
+.projectDescription {
+    /* Stili per le descrizioni dei progetti */
+    transition: all 0.3s ease-in-out; /* Transizione fluida */
+}
+
+
+.hrzigzag {
+    border: none;
+    height: 10px;
+    background: linear-gradient(45deg, #134cad 25%, transparent 25%, transparent 50%, #134cad 50%, #134cad 75%, transparent 75%);
+    background-size: 20px 20px;
+}
+
+
+/* Download Link Styles */
+
+.downloadlink {
+    text-decoration: none; /* Nessuna sottolineatura di default */
+    font-style: normal; /* Se il resto del testo non è in corsivo */
+}
+
+.downloadlink:hover {
+    text-decoration: underline; /* Sottolineatura al passaggio del mouse */
+    color: #2b82d9; /* Cambia colore al passaggio del mouse */
+}
+
+.cvDownloadLink {  
+    color: #1a0dab; /* Cambia questo con il colore che preferisci */
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .profileImage {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .twoColumnContainer {
+        flex-direction: column;
+    }
+}
+
+
+/* Footer Styles */
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
