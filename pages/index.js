@@ -44,7 +44,7 @@ export default function Home() {
       <header className={styles.header}>
         <div className={styles.profileContainer}>
           <Image
-            src="Foto .jpg"
+            src="foto.jpg"
             alt="Martina Gressoni"
             width={180}
             height={180}
