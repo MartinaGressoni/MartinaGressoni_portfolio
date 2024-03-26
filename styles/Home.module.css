@@ -1,6 +1,6 @@
 /* Header Styles */
 .header {
-    background-color: #ccdef4;
+    background-color: #BEDE92;
     padding: 14px;
     text-align: center;
     margin: 0; /* Rimuove margini esterni */
@@ -29,7 +29,7 @@
 /* Navbar Styles */
 .navbar ul {
     list-style-type: none;
-    background-color: #1d4e89;
+    background-color: #46B163;
     padding: 15px 0;
     display: flex;
     justify-content: center;
