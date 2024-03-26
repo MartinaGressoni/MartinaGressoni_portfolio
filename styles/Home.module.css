@@ -40,19 +40,23 @@
     justify-content: right;
     gap: 40px;
     margin: 0;
+    
 }
 
 .navbar li {
     display: inline;
+    margin: 0;
 }
 
 .navbar a {
     color: #f7f7f7; /* Inserisci qui il colore che vuoi per il testo */
+    margin:0;
 }
 
 .navbar a:hover {
     text-decoration: underline;
     color: #050400;
+    margin:0;
 }
     
 /* Main Section Styles */
