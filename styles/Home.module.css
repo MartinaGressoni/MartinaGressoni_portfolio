@@ -57,13 +57,12 @@
 
 .navbar a {
     color: #f7f7f7; /* Inserisci qui il colore che vuoi per il testo */
-    margin: auto;
+    margin-right: 5px;    
 }
 
 .navbar a:hover {
     text-decoration: underline;
     color: #050400;
-    margin: auto;
 }
     
 /* Main Section Styles */
