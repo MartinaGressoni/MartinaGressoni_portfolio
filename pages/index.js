@@ -81,14 +81,15 @@ export default function Home() {
         <section id="about" className={styles.aboutSection}>
           <h2>About Me</h2>
           <p>
-            <br /> "Hello there! I'm an enthusiastic and driven type of person who thrives on seizing every opportunity that comes her way. Whether it's diving into a university project or tackling tasks in the workplace, I always strive to give my absolute best. <br />
+            <br /> Hello there! I'm an enthusiastic and driven type of person who thrives on seizing every opportunity that comes her way. Whether it's diving into a university project or tackling tasks in the workplace, I always strive to give my absolute best. <br />
                <br />
               Currently, I'm in my second year of a master's program in International Business Management at Università Carlo Cattaneo LIUC, where I also graduated with top honors in Business Economics. 
               Throughout my academic journey, I've been known for my ability to rally teams together for group projects, ensuring everyone is engaged and on the same page. My passion for corporate financial functions and governance has grown steadily, as I believe they hold the key to creating tangible value. <br />
                <br />
               My recent internship experience at Accenture exposed me to transformative projects in the energy sector, further fueling my motivation for impactful work. Beyond my professional endeavors, I thrive on pushing boundaries and exploring new horizons, whether it's embarking on international adventures or participating in exchange programs as my recent experience at University of Ottawa, in Canada.
-              I believe what truly defines myself is my genuine empathy and passion for collaborating with others to tackle complex business challenges. I firmly believe that by working together, we can achieve remarkable results."
+              I believe what truly defines myself is my genuine empathy and passion for collaborating with others to tackle complex business challenges. I firmly believe that by working together, we can achieve remarkable results.
             <br /> 
+               <br />
            
               <div className={styles.buttonContainer}>
                 <a href="Curriculum Vitae Gressoni Martina Eng.pdf" target="_blank" rel="noopener noreferrer" className={styles.downloadbutton}>Curriculum Vitae</a>
