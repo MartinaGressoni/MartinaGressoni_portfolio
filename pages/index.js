@@ -86,8 +86,8 @@ export default function Home() {
               Currently, I'm in my second year of a master's program in International Business Management at Università Carlo Cattaneo LIUC, where I also graduated with top honors in Business Economics. 
               Throughout my academic journey, I've been known for my ability to rally teams together for group projects, ensuring everyone is engaged and on the same page. My passion for corporate financial functions and governance has grown steadily, as I believe they hold the key to creating tangible value. <br />
                <br />
-              My recent internship experience at Accenture exposed me to transformative projects in the energy sector, further fueling my motivation for impactful work. Beyond my professional endeavors, I thrive on pushing boundaries and exploring new horizons, whether it's embarking on international adventures or participating in exchange programs as my recent experience at University of Ottawa, in Canada.
-              I believe what truly defines myself is my genuine empathy and passion for collaborating with others to tackle complex business challenges. I firmly believe that by working together, we can achieve remarkable results.
+              My recent internship experience at Accenture exposed me to transformative projects in the energy sector, further fueling my motivation for impactful work. Beyond my professional endeavors, I thrive on pushing boundaries and exploring new horizons, whether it's embarking on international adventures or participating in exchange programs as my recent experience at University of Ottawa, in Canada. <br />
+              I believe what truly defines myself is my genuine empathy and passion for collaborating with others to tackle complex business challenges. I firmly think that by working together, we can achieve remarkable results.
             <br /> 
                <br />
            
