@@ -81,16 +81,15 @@ export default function Home() {
         <section id="about" className={styles.aboutSection}>
           <h2>About Me</h2>
           <p>
-            <br />In 2019, after years living in my home country, Maratea, I moved to Milan to pursue my studies in Business Administration and Management at Bocconi University. 
-            In the following years I took part in several projects, which can be consulted in the Projects area of this portfolio, 
-            until I spent an exchange semester in Ottawa (Canada) during my third year of Bachelor, at the Telfer School of Management. 
-            Subsequently, in 2022 I started my Master of Science in Management, which led me to an internship at Amazon Business from June 2023 to December 2023 in the area of Business Development and Account Management.<br /> 
-            <br />
-            From early on I developed a passion for tech and innovation: during my third year of high school science (2017) I took part in a school work experience on how to develop a startup from 0, 
-            creating a prototype and a business model. In 2022, a colleague and I won a "Call4Ideas", drafting an idea about a platform to improve the supply chain of NGOs and presenting the project in front of a jury at the SDA School of Management. 
-            Afterwards, I am taking courses and doing self-taught practices to learn coding with various languages. <br />
-            I strongly believe that this new technological era will change the course of our lives, and I want to be part of this change.<br />
-            <br />
+            <br /> "Hello there! I'm an enthusiastic and driven type of person who thrives on seizing every opportunity that comes her way. Whether it's diving into a university project or tackling tasks in the workplace, I always strive to give my absolute best. <br />
+               <br />
+              Currently, I'm in my second year of a master's program in International Business Management at Università Carlo Cattaneo LIUC, where I also graduated with top honors in Business Economics. 
+              Throughout my academic journey, I've been known for my ability to rally teams together for group projects, ensuring everyone is engaged and on the same page. My passion for corporate financial functions and governance has grown steadily, as I believe they hold the key to creating tangible value. <br />
+               <br />
+              My recent internship experience at Accenture exposed me to transformative projects in the energy sector, further fueling my motivation for impactful work. Beyond my professional endeavors, I thrive on pushing boundaries and exploring new horizons, whether it's embarking on international adventures or participating in exchange programs as my recent experience at University of Ottawa, in Canada.
+              I believe what truly defines myself is my genuine empathy and passion for collaborating with others to tackle complex business challenges. I firmly believe that by working together, we can achieve remarkable results."
+            <br /> 
+           
               <div className={styles.buttonContainer}>
                 <a href="CV.pdf" target="_blank" rel="noopener noreferrer" className={styles.downloadbutton}>Curriculum Vitae</a>
                 <a href="Bachelor's Transcript.pdf" target="_blank" className={styles.downloadbutton} rel="noopener noreferrer">My Bachelor's academic transcript</a>
