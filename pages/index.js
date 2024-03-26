@@ -42,6 +42,16 @@ export default function Home() {
       
       
       <header className={styles.header}>
+          <nav className={styles.navbar}>
+          <ul>
+            <li><a href="#about"><strong>About Me</strong></a></li>
+            <li><a href="#projects"><strong>Projects</strong></a></li>
+            <li><a href="#certificates"><strong>Certificates</strong></a></li>
+            <li><a href="#languagesandskills"><strong>Languages and Skills</strong></a></li>
+            <li><a href="#contact"><strong>Contacts</strong></a></li>
+          </ul>
+        </nav>
+     <br />
         <div className={styles.profileContainer}>
           <Image
             src="foto.jpg"
@@ -65,15 +75,6 @@ export default function Home() {
         </a>
 
         <br />      
-        <nav className={styles.navbar}>
-          <ul>
-            <li><a href="#about"><strong>About Me</strong></a></li>
-            <li><a href="#projects"><strong>Projects</strong></a></li>
-            <li><a href="#certificates"><strong>Certificates</strong></a></li>
-            <li><a href="#languagesandskills"><strong>Languages and Skills</strong></a></li>
-            <li><a href="#contact"><strong>Contacts</strong></a></li>
-          </ul>
-        </nav>
       </header>
 
             
