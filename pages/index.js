@@ -58,13 +58,12 @@ export default function Home() {
           <Image
             src="foto.jpg"
             alt="Martina Gressoni"
-            width={180}
-            height={180}
             className={styles.profileImage}
           />
           </div>
-          <div className={styles.profileContainer}>
-            <h1>Hello, I am Martina Gressoni.  <br /> Welcome to my personal portfolio!</h1>
+          <div className={styles.textContainer}>
+            <h1>Hello, I am Martina Gressoni.</h1>  <br /> 
+            <p>Welcome to my personal portfolio! </p>
           </div>
         </div>
             
