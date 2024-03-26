@@ -10,20 +10,28 @@
 .headerGrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;   
+    gap: 20px;  
+    align-items: center;
+    height: 100vh;
 }
 
 .profileContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     margin: 0;
+    grid-column: 1/2;
 }
 
 .profileImage {
-  margin: 0 auto; /* Centra l'immagine orizzontalmente */
+  margin: 0; /* Centra l'immagine orizzontalmente */
+  width: 100%;
+  height: auto;
 }
+
+.textContainer {
+    grid-column: 2/3;
+    padding: 0 2rem;
+    color: white;
+    background-color: black;
+  }  
 
 .linkedinicon {
     position: absolute;
