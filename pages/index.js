@@ -52,7 +52,9 @@ export default function Home() {
           </ul>
         </nav>
      <br />
-        <div className={styles.profileContainer}>
+       <div className={styles.headerGrid}>
+    
+          <div className={styles.profileContainer}>
           <Image
             src="foto.jpg"
             alt="Martina Gressoni"
@@ -60,10 +62,11 @@ export default function Home() {
             height={180}
             className={styles.profileImage}
           />
-          <br />
-          <h1>Hello, I am Martina Gressoni. Welcome to my personal portfolio!</h1>
+          </div>
+          <div className={styles.profileContainer}>
+            <h1>Hello, I am Martina Gressoni.  <br /> Welcome to my personal portfolio!</h1>
+          </div>
         </div>
-
             
         <a href="https://www.linkedin.com/in/niccolo-belvedere/" target="_blank" rel="noopener noreferrer">
             <img 
