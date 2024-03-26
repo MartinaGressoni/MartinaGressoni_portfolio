@@ -1,7 +1,6 @@
 /* Header Styles */
 .header {
-    background-color: #BEDE92;
-    padding: 14px;
+    background-color: black;
     text-align: center;
     margin: 0; /* Rimuove margini esterni */
     position: relative; /* Questo permette di posizionare l'icona di LinkedIn in modo assoluto rispetto al suo genitore */
@@ -58,13 +57,13 @@
 
 .navbar a {
     color: #f7f7f7; /* Inserisci qui il colore che vuoi per il testo */
-    margin:0;
+    margin: auto;
 }
 
 .navbar a:hover {
     text-decoration: underline;
     color: #050400;
-    margin:0;
+    margin: auto;
 }
     
 /* Main Section Styles */
