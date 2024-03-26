@@ -91,9 +91,9 @@ export default function Home() {
             <br /> 
            
               <div className={styles.buttonContainer}>
-                <a href="CV.pdf" target="_blank" rel="noopener noreferrer" className={styles.downloadbutton}>Curriculum Vitae</a>
-                <a href="Bachelor's Transcript.pdf" target="_blank" className={styles.downloadbutton} rel="noopener noreferrer">My Bachelor's academic transcript</a>
-                <a href="Master's Transcript.pdf" target="_blank" className={styles.downloadbutton} rel="noopener noreferrer">My Master's academic transcript</a>
+                <a href="Curriculum Vitae Gressoni Martina Eng.pdf" target="_blank" rel="noopener noreferrer" className={styles.downloadbutton}>Curriculum Vitae</a>
+                <a href="AutodichiarazioneLaureaconEsami (2).pdf" target="_blank" className={styles.downloadbutton} rel="noopener noreferrer">My Bachelor's academic transcript</a>
+                <a href="AutodichiarazioneIscrizioneconEsami (4).pdf" target="_blank" className={styles.downloadbutton} rel="noopener noreferrer">My Master's academic transcript</a>
               </div>
           </p>
         </section>
