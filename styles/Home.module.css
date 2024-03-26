@@ -7,6 +7,12 @@
     position: relative; /* Questo permette di posizionare l'icona di LinkedIn in modo assoluto rispetto al suo genitore */
 }
 
+.headerGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;   
+}
+
 .profileContainer {
     display: flex;
     justify-content: center;
@@ -16,7 +22,6 @@
 }
 
 .profileImage {
-  border-radius: 50%; /* Opzionale: rende l'immagine rotonda */
   margin: 0 auto; /* Centra l'immagine orizzontalmente */
 }
 
